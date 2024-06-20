@@ -17,7 +17,7 @@ p {
   color: hsl(0, 0%, 50%);
 }
 
-section.card {
+main.card {
   background-color: white;
   border-radius: 20px;
   border: 1px solid black;
@@ -32,7 +32,7 @@ section.card {
   transition: box-shadow 0.25s ease-in-out;
 }
 
-section.card:hover {
+main.card:hover {
   box-shadow: 10px 10px black;
 }
 
