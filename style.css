@@ -7,6 +7,10 @@ body {
   background-color: hsl(47, 88%, 63%);
   color: hsl(0, 0%, 7%);
   font-family: "Figtree";
+  font-weight: 500;
+  font-size: 16px;
+
+  margin: 25px;
 }
 
 p {
@@ -15,18 +19,73 @@ p {
 
 section.card {
   background-color: white;
-  border-radius: 15px;
+  border-radius: 20px;
   border: 1px solid black;
-  box-shadow: 5px 5px black;
+  box-shadow: 7px 7px black;
 
   max-width: 350px;
   margin: auto;
-  margin-top: 15vh;
+  margin-top: 20vh;
 
   padding: 20px;
+
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+section.card:hover {
+  box-shadow: 10px 10px black;
 }
 
 div.image img {
   border-radius: 15px;
   width: 100%;
+
+  margin-bottom: 15px;
+}
+
+div.title h1 {
+  font-weight: 800;
+}
+
+div.title a {
+  text-decoration: none;
+  color: black;
+}
+
+div.title a:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+div.tag {
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+
+  max-width: 80px;
+  padding: 8px;
+
+  text-align: center;
+}
+
+div.date {
+  margin-top: 15px;
+}
+
+div.author {
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+
+div.author img {
+  max-width: 30px;
+}
+
+div.author span {
+  margin-left: 10px;
+}
+
+div.attribution {
+  margin-top: 15px;
 }
