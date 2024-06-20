@@ -1,4 +1,32 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
 body {
   background-color: hsl(47, 88%, 63%);
   color: hsl(0, 0%, 7%);
+  font-family: "Figtree";
+}
+
+p {
+  color: hsl(0, 0%, 50%);
+}
+
+section.card {
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: 5px 5px black;
+
+  max-width: 350px;
+  margin: auto;
+  margin-top: 15vh;
+
+  padding: 20px;
+}
+
+div.image img {
+  border-radius: 15px;
+  width: 100%;
 }
